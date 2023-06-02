@@ -1,0 +1,16 @@
+@use '@/styles/scss/abstracts/' as *;
+
+
+.carousel{
+  width: 400px;
+  box-shadow: $shadow;
+  .imgBox{
+    height:60vh;
+    overflow: hidden;
+    position: relative;
+    .nextImg{
+      object-fit: cover;
+      border-radius: 3px;
+    }
+  }
+}

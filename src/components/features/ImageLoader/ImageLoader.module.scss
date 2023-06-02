@@ -1,0 +1,14 @@
+@use '@/styles/scss/abstracts/' as *;
+
+
+.imgBox{
+  height:30vh;
+  width: 60vh;
+  overflow: hidden;
+  position: relative;
+  box-shadow: $shadow;
+  border-radius: 3px;
+  .nextImg {
+    object-fit: cover;
+  }
+}

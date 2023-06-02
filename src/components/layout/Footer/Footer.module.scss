@@ -1,0 +1,16 @@
+@use '@/styles/scss/abstracts/' as *;
+
+.footerbottom {
+  background: $primaryColor;
+  color: $complementaryColor;
+  text-align: center;
+
+  .a {
+    color: $complementaryColor;
+    text-decoration: none;
+    &:hover {
+      color: $brandSkewColor;
+      text-decoration: underline;
+    }
+  }
+}

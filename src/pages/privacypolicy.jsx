@@ -1,0 +1,22 @@
+import { Fragment } from 'react'
+import HeroSection from '@/components/layout/HeroSection/HeroSection'
+import Main from '@/components/layout/Main/Main'
+import { Container } from 'react-bootstrap'
+
+const PrivicyPolicyPage = () => {
+  return (
+    <Fragment>
+      <HeroSection
+        title='Privicy Policy'
+        description="lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      />
+      <Main>
+        <Container className='mt-3 p-5'>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti magnam voluptatibus ad iste recusandae perspiciatis suscipit eveniet fugit, inventore qui atque earum eius placeat quia minus nam, quo molestias sed rem laudantium quos. Corrupti, officia eaque iusto, expedita facilis alias vero provident explicabo, repellendus odit eius accusamus dolore autem? Ratione porro quam fugiat eos ea eveniet, temporibus adipisci repellat perferendis, modi velit ab in quos est voluptatum quia quidem consequatur vitae facere sunt cumque placeat nisi molestiae! Fuga earum magnam corrupti esse facere cupiditate reprehenderit quo accusamus tempora omnis odit eaque beatae amet saepe officiis facilis, dicta consequuntur qui iusto assumenda quos nulla perferendis. Nam natus odio soluta. Animi doloremque doloribus optio tenetur quaerat, eveniet commodi consequatur placeat, eos facilis cumque eaque, aliquid ullam excepturi incidunt dolores maiores ut molestiae laudantium sequi corporis accusantium et sint temporibus. Magni amet inventore harum consectetur blanditiis cum adipisci quasi, recusandae, provident dolore, repudiandae architecto doloremque. Facilis aperiam laboriosam repellat dolor eius corrupti voluptas saepe? Eum alias consequuntur velit reprehenderit, dignissimos assumenda recusandae error aut enim atque odit ipsa neque perspiciatis. Molestias distinctio cumque tempore magnam quis repellendus ut molestiae illo esse, itaque quas. Quis quos assumenda illo iste! In earum ut asperiores repellendus, error architecto consequatur quo. Dolor, debitis facilis odit repellat rem voluptas cumque earum tempora et, voluptate qui animi ullam. Illum quas laborum necessitatibus aperiam repudiandae molestiae fuga doloribus libero beatae officia amet, ipsum expedita, alias tenetur sint id, eius excepturi nesciunt dolor nisi mollitia laudantium. Commodi autem nemo debitis id sint at dignissimos consectetur? Ab recusandae enim vel ipsum sed, earum numquam illo dolores, et ipsa amet aspernatur assumenda beatae porro, magni consequatur ut. Modi nemo deleniti sit, libero in voluptatum. Dignissimos aspernatur excepturi quos, assumenda vitae maxime porro laborum minima reiciendis magnam? Error deleniti, exercitationem quibusdam maxime esse odio obcaecati, earum tenetur id consectetur rerum expedita nam ducimus. Labore, quasi. Doloribus labore, incidunt earum sunt magni illo sit, sed suscipit, optio possimus perferendis non iure modi? Exercitationem necessitatibus quae placeat rerum inventore ducimus laboriosam fugiat impedit tenetur et, ratione distinctio magnam expedita repellendus explicabo numquam dolores ex sequi dolorum iure. Rem blanditiis autem, perferendis totam impedit nulla consequatur porro iste soluta aperiam repellat itaque quia laboriosam et earum qui. Repellat magni autem, consequuntur rerum ad necessitatibus distinctio quisquam facere hic voluptatibus nesciunt pariatur alias aliquid, dolorum molestias corporis quis quo iusto maxime maiores quos. Quos ex reprehenderit illum quibusdam dolor maxime alias voluptatum suscipit molestiae eum, quam, rem praesentium voluptates asperiores culpa fugiat recusandae nemo temporibus impedit nam saepe aliquam unde consequuntur corporis? Totam voluptates aliquam quaerat iure eos dignissimos quod amet corporis magni facilis dolorum consectetur odit maiores quidem animi adipisci nihil aperiam, et dolores reiciendis pariatur asperiores dolor iste. Fugiat quas eius, aperiam ipsum recusandae repellendus? Repellat rem placeat veniam voluptas animi voluptates. Pariatur, iste neque inventore non quod quia illo nulla. Inventore laudantium debitis blanditiis, expedita cum saepe cumque incidunt, quae, eos eveniet distinctio autem iusto facere quisquam eius repudiandae? Iste excepturi doloribus similique earum consequuntur.</p>
+        </Container>
+      </Main>
+    </Fragment>
+  )
+}
+
+export default PrivicyPolicyPage

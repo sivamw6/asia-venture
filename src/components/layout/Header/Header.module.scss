@@ -1,0 +1,13 @@
+@use '@/styles/scss/abstracts/' as *;
+
+.navbar {
+  border-bottom: 1px solid $highlightColor;
+  font-size: 1.2rem;
+  
+  .navContent{
+    text-transform: uppercase;
+  }
+  .navLogo{
+    font-size: 2rem;
+  }
+}
