@@ -36,7 +36,7 @@ function HomePage ({images, imageLoaderImage}) {
                   </Container>
                 </Col>
                 <Col className='d-flex justify-content-center align-items-center'>
-                  <div style={{ position:'relative', width: '600px', height: '300px'}}><ImageLoader image={imageLoaderImage}/></div>
+                  <div style={{ position:'relative', width: '100%', height: '300px'}}><ImageLoader image={imageLoaderImage}/></div>
                 </Col>
               </Row>
             </Col>

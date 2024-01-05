@@ -10,6 +10,7 @@ const ImageLoader = ({ image }) => {
             className={styles.nextImg}
             src={image.urls.small}
             alt={image.alt_description}
+          
             fill={true}
             loading='eager'
             quality={100}

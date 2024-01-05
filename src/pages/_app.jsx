@@ -2,7 +2,7 @@ import { Fragment, useEffect } from 'react'
 import Head from 'next/head'
 import Script from 'next/script';
 import { SSRProvider } from 'react-bootstrap';
-import '@/styles/globals.css'
+import '@/styles/scss/base/_base.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from '@/components/layout'
 

@@ -4,6 +4,9 @@
 .carousel{
   width: 400px;
   box-shadow: $shadow;
+
+  
+  
   .imgBox{
     height:60vh;
     overflow: hidden;
@@ -13,4 +16,5 @@
       border-radius: 3px;
     }
   }
+
 }

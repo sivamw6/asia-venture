@@ -1,8 +1,13 @@
 @use '../abstracts/' as *;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
 
 html, body {
   padding: 0;
   margin: 0;
+  @media (max-width: 375px) {
+    width: 100vw;
+    height: 100vh;
+  }
 }
 
 a {
