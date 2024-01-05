@@ -1,6 +1,6 @@
 # Asia Venture
 
-![Example Image](/public/images/asia-venture.png" This is an example image")
+![Example Image](/public/images/asia-venture.png "This is an example image")
 
 ## Project Overview
 
