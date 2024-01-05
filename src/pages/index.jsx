@@ -1,14 +1,13 @@
 import { Fragment } from 'react'
 import Head from 'next/head'
+import { Container, Row, Col } from 'react-bootstrap'
+
 import HeroSection from '@/components/layout/HeroSection/HeroSection'
 import CustomCarousel from '@/components/common/Carousel/CustomCarousel'
 import Main from '@/components/layout/Main/Main'
-import { Container, Row, Col } from 'react-bootstrap'
 import ImageLoader from '@/components/features/ImageLoader/ImageLoader'
 
-
 function HomePage ({images, imageLoaderImage}) {
-
 
   return (
     <Fragment>
@@ -21,11 +20,8 @@ function HomePage ({images, imageLoaderImage}) {
       <HeroSection 
         title='Discover the Orient'
         description='invites you to embark on a captivating journey through the culturally rich and enchanting lands of the East'/>
-      
       <Main>
-
         <Container>
-
           <Row className='align-items-center'>
             <Col className='d-flex justify-content-center'>
               <CustomCarousel 
@@ -35,8 +31,8 @@ function HomePage ({images, imageLoaderImage}) {
               <Row>
                 <Col>
                    <Container>
-                  <p className='p-4'>Welcome to Asia Venture, your ultimate guide to adventuring through the captivating and diverse landscapes of Asia. Our website is designed to provide you with all the inspiration and information you need to embark on an unforgettable journey across this enchanting continent. 
-                  Asia is a land of incredible diversity, offering a rich tapestry of cultures, breathtaking natural wonders, and ancient traditions waiting to be explored. From the bustling streets of Tokyo to the serene temples of Kyoto in Japan, the vibrant markets of Bangkok in Thailand, and the majestic beauty of Taiwan, Asia is a treasure trove of extraordinary experiences.</p>
+                    <p className='p-4'>Welcome to Asia Venture, your ultimate guide to adventuring through the captivating and diverse landscapes of Asia. Our website is designed to provide you with all the inspiration and information you need to embark on an unforgettable journey across this enchanting continent. 
+                    Asia is a land of incredible diversity, offering a rich tapestry of cultures, breathtaking natural wonders, and ancient traditions waiting to be explored. From the bustling streets of Tokyo to the serene temples of Kyoto in Japan, the vibrant markets of Bangkok in Thailand, and the majestic beauty of Taiwan, Asia is a treasure trove of extraordinary experiences.</p>
                   </Container>
                 </Col>
                 <Col className='d-flex justify-content-center align-items-center'>
@@ -45,12 +41,7 @@ function HomePage ({images, imageLoaderImage}) {
               </Row>
             </Col>
           </Row>
-
         </Container>
-
-
-        <div>
-        </div>
       </Main>
     </Fragment>
   )

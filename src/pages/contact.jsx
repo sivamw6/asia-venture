@@ -1,7 +1,7 @@
 import { Fragment } from 'react'
+import { Button, Container, Form } from 'react-bootstrap'
 import HeroSection from '@/components/layout/HeroSection/HeroSection'
 import Main from '@/components/layout/Main/Main'
-import { Button, Container, Form } from 'react-bootstrap'
 
 const ContactPage = () => {
   return (
@@ -25,7 +25,6 @@ const ContactPage = () => {
                 <Form.Control as="textarea" rows={3} />
               </Form.Group>
               <div className="d-grid gap-2"><Button variant="light">Submit</Button></div>
-              
             </Form>
           </div>
         </Container>

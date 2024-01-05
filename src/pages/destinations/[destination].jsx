@@ -1,8 +1,9 @@
 import { useRouter } from 'next/router';
 import { Fragment } from 'react';
 import Head from 'next/head';
-import { destinations } from '@/database/db';
 import { Container,Table, Row, Col } from 'react-bootstrap'
+
+import { destinations } from '@/database/db';
 import HeroSection from '@/components/layout/HeroSection/HeroSection'
 import CustomCarousel from '@/components/common/Carousel/CustomCarousel';
 import Main from '@/components/layout/Main/Main';
@@ -42,46 +43,42 @@ const DestinationPage = (props) => {
         <title>Asia Venture | {capitalizedDestination}</title>
         <meta></meta>
       </Head>
-      <div>
-        <HeroSection title={'About ' + capitalizedDestination} />
-        <Main>
-          <Container>
-            <Row className='align-items-center'>
-              <Col className='d-flex justify-content-center'>
-                <CustomCarousel images={images} />
-              </Col>
-              <Col className='my-3 d-flex justify-content-center'>
-                <Table>
-                  <tbody>
-                    <TableAnimation delay={100}>
-                      <td>Capital: </td>
-                      <td>{capital}</td>
-                    </TableAnimation>
-                    <TableAnimation delay={200}>
-                      <td>Currency: </td>
-                      <td>{currency}</td>
-                    </TableAnimation>
-                    <TableAnimation delay={300}>
-                      <td>Current weather: </td>
-                      <td>{weatherData.main.temp}°C</td>
-                    </TableAnimation>
-                    <TableAnimation delay={400}>
-                      <td>Language: </td>
-                      <td>{language}</td>
-                    </TableAnimation>
-                    <TableAnimation delay={500}>
-                      <td>Description: </td>
-                      <td>{description}</td>
-                    </TableAnimation>
-                  </tbody>
-                </Table>
-              </Col>
-            </Row>
-          </Container>
-          
-        </Main>
-      </div>
-
+      <HeroSection title={'About ' + capitalizedDestination} />
+      <Main>
+        <Container>
+          <Row className='align-items-center'>
+            <Col className='d-flex justify-content-center'>
+              <CustomCarousel images={images} />
+            </Col>
+            <Col className='my-3 d-flex justify-content-center'>
+              <Table>
+                <tbody>
+                  <TableAnimation delay={100}>
+                    <td>Capital: </td>
+                    <td>{capital}</td>
+                  </TableAnimation>
+                  <TableAnimation delay={200}>
+                    <td>Currency: </td>
+                    <td>{currency}</td>
+                  </TableAnimation>
+                  <TableAnimation delay={300}>
+                    <td>Current weather: </td>
+                    <td>{weatherData.main.temp}°C</td>
+                  </TableAnimation>
+                  <TableAnimation delay={400}>
+                    <td>Language: </td>
+                    <td>{language}</td>
+                  </TableAnimation>
+                  <TableAnimation delay={500}>
+                    <td>Description: </td>
+                    <td>{description}</td>
+                  </TableAnimation>
+                </tbody>
+              </Table>
+            </Col>
+          </Row>
+        </Container>
+      </Main>
     </Fragment>
   );
 };
